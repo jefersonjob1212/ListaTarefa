@@ -1,10 +1,8 @@
-import { HttpBackend, HttpClient } from '@angular/common/http';
-import { getNgModuleById, Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { TarefaRequest } from '../models/request/tarefa-request';
-import { observableToBeFn } from 'rxjs/internal/testing/TestScheduler';
 import { Observable } from 'rxjs';
 import { TarefaResponse } from '../models/response/tarefa=response';
-import { identifierName } from '@angular/compiler';
 
 @Injectable({
   providedIn: 'root'
